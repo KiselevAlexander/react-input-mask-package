@@ -5,10 +5,6 @@
     "type": "commonjs",
     "main": "dist/lib.js",
     "types": "dist/index.d.ts",
-    "scripts": {
-        "build": "tsc",
-        "postinstall": "npm install zod && npm run build"
-    },
     "dependencies": {
         "invariant": "^2.2.4",
         "prop-types": "^15.8.1",
