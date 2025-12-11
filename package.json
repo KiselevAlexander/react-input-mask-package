@@ -1,0 +1,22 @@
+{
+    "name": "@kiselev/react-input-mask",
+    "version": "1.0.0",
+    "packageManager": "yarn@4.9.4",
+    "type": "commonjs",
+    "main": "dist/lib.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "postinstall": "npm install zod && npm run build"
+    },
+    "dependencies": {
+        "invariant": "^2.2.4",
+        "prop-types": "^15.8.1",
+        "rollup-plugin-copy": "^3.5.0",
+        "warning": "^4.0.3"
+    },
+    "peerDependencies": {
+        "react": ">=18",
+        "react-dom": ">=18"
+    }
+}
